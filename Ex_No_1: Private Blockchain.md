@@ -69,6 +69,7 @@ authrpc.port 8546 --networkid { NETWORK_ID } --unlock { ADDRESS_NODE2 } --passwo
 19.Node1 has deployed and added to blockchain.
 ```
 ## PROGRAM
+```
 #Genesis file privateblock.json
 {
 "config" {
@@ -98,7 +99,7 @@ authrpc.port 8546 --networkid { NETWORK_ID } --unlock { ADDRESS_NODE2 } --passwo
 "e503980FB9E4D17048b973B0ee01759DcF2d7879" { "balance" "3000000000000000000" }
 }
 }
-6
+```
 ## Smart Contract New.sol
 ```
 //SPDX-License-Identifier MIT
@@ -122,5 +123,6 @@ return name;
 <img width="1920" height="1080" alt="Screenshot 2025-09-18 092056" src="https://github.com/user-attachments/assets/928e6619-9022-43ed-af6c-b2362edaa4da" />
 
 
-## RESULT: Thus, the Private Blockchain is created, nodes are added with accounts, and Ether is transferred
+## RESULT: 
+Thus, the Private Blockchain is created, nodes are added with accounts, and Ether is transferred
 into it by creating and deploying Smart contract successfully
